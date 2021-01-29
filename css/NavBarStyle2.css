@@ -1,0 +1,28 @@
+.navbar {
+	display:flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.flex-fill {
+   flex:1;   
+}
+.navbar a {
+    float: start;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
